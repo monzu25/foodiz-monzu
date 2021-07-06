@@ -1,7 +1,120 @@
 body{
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 .food-models{
     display: flex;
+    padding: 10px 100px 20px 100px;
+
+    align-items: center;
+    
+        
 }
+
+
+
+
+.food-detail{
+width: 50%;
+
+}
+
+h1{
+    font-size:50px;
+}
+h2{
+    font-size: 35px;
+}
+
+
+
+a{
+   background-image:linear-gradient(#Fe4f30, #eb9e91);
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+  }
+
+
+  .nutrition, .top-Logo{
+      color: #D92E32;
+  }
+
+
+
+  .para-description,p{
+      text-align: justify;
+  }
+
+  .food-items, .visitors_counter{
+      display: flex;
+      
+
+  }
+
+
+  .items{
+    width: 28%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding:12px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 25px;
+    
+
+  }
+  img{
+      border-radius: 15px;
+  }
+  .recipies, .welcome-section{
+      text-align: center;
+  }
+
+   .counter{
+       width: 33%;
+       text-align: center;
+     
+   }
+
+   .visitors_counter{
+    margin: 50px 2% 50px 2%;
+    padding:12px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 25px;
+
+   }
+
+
+   .footer-section{
+       text-align: center;
+   }
+   .footer-area{
+
+    background-image:radial-gradient(#Fe4f30, #eb9e91);
+    height: 200px;
+    width: 100%;
+    margin-top: 100px;
+    padding-top: 50px;
+   }
+
+.footer-logo{
+    color: #ffffff;
+
+}
+.logo{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+
+
+.section2-bg{
+
+    background-image: url(backgroundimages/7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
